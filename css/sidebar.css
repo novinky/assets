@@ -1,0 +1,20 @@
+.sidebar {
+  padding: 0.5rem;
+  background: black;
+}
+.sidebar a {
+  display: block;
+  padding: 0.875rem 0.75rem;
+  font-size: 1.125rem;
+  border-radius: 0.25rem;
+  color: white;
+}
+.sidebar a:hover {
+  background: rgba(1, 1, 1, 0.5);
+}
+
+.sidebar__title {
+  padding: 1rem 0.75rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}

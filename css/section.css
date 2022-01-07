@@ -1,0 +1,48 @@
+/* Bulma Utilities */
+.section {
+  padding: 2rem 0;
+}
+
+.section__title {
+  padding: 0 0 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section__body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+@media screen and (min-width: 769px), print {
+  .section__body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section__body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.section__categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.section__category {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 2px solid #311b92;
+  color: white;
+  background: #000063;
+  display: block;
+}
+
+.section__emoji {
+  font-size: 2rem;
+}
